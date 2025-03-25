@@ -28,15 +28,15 @@ logger = logging.getLogger("WeatherFetcher")
 class WeatherFetcher:
     """Class to fetch and process weather data from OpenWeatherMap API."""
 
-    # Correct API endpoint - was using v3.0 which doesn't exist, should be v2.5
+    # Correct API endpoint - please note that correct version should be v2.5
     BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
     def __init__(self):
         """Initialize the WeatherFetcher with API key from environment variables."""
-        # Load environment variables from .env file
+        # Load .env file
         load_dotenv()
 
-        # Get API key from environment variables - use env var for security
+        # Get API key use env var for security
         self.api_key = os.getenv("OPENWEATHERKEY")
         if not self.api_key:
             logger.error(
@@ -77,7 +77,6 @@ class WeatherFetcher:
             # API request
             response = requests.get(self.BASE_URL, params=params)
 
-            # Logging response status for debugging
             logger.info(f"API status code for response: {response.status_code}")
 
             # Raise an exception for HTTP errors
