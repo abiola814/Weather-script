@@ -7,7 +7,7 @@ Weather data is retrieved from the OpenWeatherMap API, processed, and saved by a
 ## Prerequisites
 
 - Python 3.11 or higher
-- OpenWeatherMap API key (get one for free at [OpenWeatherMap](https://home.openweathermap.org/users/sign_up))
+- OpenWeatherMap API key ([OpenWeatherMap](https://home.openweathermap.org/users/sign_up))
 
 
 ## Installation
@@ -27,7 +27,7 @@ Weather data is retrieved from the OpenWeatherMap API, processed, and saved by a
    - Create a `.env` file based on the provided `.env.example`
    - Add your OpenWeatherMap API key to the file:
      ```
-     OPENWEATHERKEY=your_key_from_open_weathr
+     OPENWEATHERKEY=your_key_from_open_weather
      ```
    - Please make sure No quotes or spaces in the environment variable format
 
