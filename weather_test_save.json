@@ -1,0 +1,19 @@
+{
+    "city": "Test City",
+    "country": "TC",
+    "temperature": {
+        "current": 20.5,
+        "feels_like": 19.8,
+        "min": 18.0,
+        "max": 22.0
+    },
+    "humidity": 65,
+    "pressure": 1015,
+    "wind": {
+        "speed": 3.5,
+        "direction": 180
+    },
+    "weather_description": "clear sky",
+    "weather_main": "Clear",
+    "timestamp": "2023-01-01T12:00:00"
+}

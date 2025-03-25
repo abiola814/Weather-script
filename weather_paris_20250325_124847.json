@@ -1,0 +1,19 @@
+{
+    "city": "Paris",
+    "country": "FR",
+    "temperature": {
+        "current": 12.38,
+        "feels_like": 11.5,
+        "min": 11.43,
+        "max": 13.92
+    },
+    "humidity": 70,
+    "pressure": 1022,
+    "wind": {
+        "speed": 2.57,
+        "direction": 320
+    },
+    "weather_description": "scattered clouds",
+    "weather_main": "Clouds",
+    "timestamp": "2025-03-25T12:48:47.369900"
+}

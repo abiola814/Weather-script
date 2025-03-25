@@ -1,0 +1,19 @@
+{
+    "city": "London",
+    "country": "GB",
+    "temperature": {
+        "current": 6.3,
+        "feels_like": 3.39,
+        "min": 5.57,
+        "max": 7.65
+    },
+    "humidity": 86,
+    "pressure": 1021,
+    "wind": {
+        "speed": 4.12,
+        "direction": 240
+    },
+    "weather_description": "haze",
+    "weather_main": "Haze",
+    "timestamp": "2025-03-25T09:18:21.098468"
+}

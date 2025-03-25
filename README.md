@@ -2,21 +2,13 @@
 
 Weather data is retrieved from the OpenWeatherMap API, processed, and saved by a secure Python script. This project exemplifies strong error management, safe API key handling, and appropriate data processing.
 
-## Features
 
-- Fetching of weather data securely from OpenWeatherMap API
-- Proper storing of environment secret i.e not hardcoded
-- Process and format weather data into a user-friendly structure
-- Transforming and format of weather response data for 
-- loading of user-friendly data to json
-- Comprehensive error handling for network issues, API errors, and data processing
-- Logging and monitoring
-- perform unit test for weather script
 
 ## Prerequisites
 
 - Python 3.11 or higher
 - OpenWeatherMap API key (get one for free at [OpenWeatherMap](https://home.openweathermap.org/users/sign_up))
+
 
 ## Installation
 
@@ -38,6 +30,18 @@ Weather data is retrieved from the OpenWeatherMap API, processed, and saved by a
      OPENWEATHERKEY=your_key_from_open_weathr
      ```
    - Please make sure No quotes or spaces in the environment variable format
+
+
+## Attributes
+
+- Fetching of weather data securely from OpenWeatherMap API
+- Proper storing of environment secret i.e not hardcoded
+- Process and format weather data into a user-friendly structure
+- Transforming and format of weather response data for 
+- loading of user-friendly data to json
+- Comprehensive error handling for network issues, API errors, and data processing
+- Logging and monitoring
+- perform unit test for weather script
 
 ## Usage
 

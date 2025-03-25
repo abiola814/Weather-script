@@ -1,0 +1,13 @@
+2025-03-25 12:48:47,238 - WeatherFetcher - INFO - WeatherFetcher initialized successfully
+2025-03-25 12:48:47,238 - WeatherFetcher - INFO - Retrieving weather data for paris
+2025-03-25 12:48:47,369 - WeatherFetcher - INFO - API status code for response: 200
+2025-03-25 12:48:47,369 - WeatherFetcher - INFO - Successfully fetched and processed weather data for paris
+2025-03-25 12:48:47,373 - WeatherFetcher - INFO - Weather data saved to weather_paris_20250325_124847.json
+2025-03-25 12:48:54,900 - WeatherFetcher - INFO - WeatherFetcher initialized successfully
+2025-03-25 12:48:54,901 - WeatherFetcher - INFO - Weather data saved to weather_test_save.json
+2025-03-25 12:48:54,904 - WeatherFetcher - INFO - WeatherFetcher initialized successfully
+2025-03-25 12:48:54,908 - WeatherFetcher - INFO - WeatherFetcher initialized successfully
+2025-03-25 12:48:54,909 - WeatherFetcher - INFO - WeatherFetcher initialized successfully
+2025-03-25 12:48:54,910 - WeatherFetcher - INFO - WeatherFetcher initialized successfully
+2025-03-25 12:48:54,911 - WeatherFetcher - INFO - WeatherFetcher initialized successfully
+2025-03-25 12:48:54,911 - WeatherFetcher - ERROR - Missing expected field in weather data: 'feels_like'
